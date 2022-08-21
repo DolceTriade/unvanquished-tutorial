@@ -74,7 +74,7 @@ function StartTutorial(ent)
 end
 
 function HandleTeamChange(ent, team)
-    if SameEnt(ent, learner) and tutorial ~= nil then
+    if tutorial ~= nil then
         if tutorial.TeamChange then
             tutorial.TeamChange(ent, team)
         end
