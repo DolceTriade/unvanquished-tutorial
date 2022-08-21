@@ -27,7 +27,7 @@ end
 function EggTouch(self, other)
     egg.buildable:decon()
     egg = nil
-    SayCP(other, '^5Good job on learning the dretch basics! Feel free to try another tutorial!')
+    SayCP(other, '^5Good job on learning the dretch basics! Check back later for more tutorials!')
     Putteam(other, 's')
     ResetTutorial()
 end
